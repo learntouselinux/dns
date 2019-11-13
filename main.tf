@@ -9,5 +9,5 @@ resource "digitalocean_record" "root" {
   domain = "${digitalocean_domain.root.name}"
   type = "A"
   name = "@"
-  value = "157.245.169.240"
+  value = "167.172.200.126"
 }
